@@ -9,28 +9,51 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-		<header class="container light-blue" id="header">
+		<header class="container" id="header">
 			<div class="sibling" id="logo">
 				<img id="logo_image" src="images/udacity.svg" alt="Udacity logo">
 			</div>
 			<div class="sibling" id="site_title">
-				<h1 class="sibling text" id="name">Amitoj Gill</h1>
-				<h3 class="sibling text" id="">Full Stack Developer</h3>
+				<h1 class="inline text" id="name">Amitoj Gill</h1>
+				<br>
+				<h3 class="inline text" id="title">Full Stack Developer</h3>
 			</div>
 		</header>
-		<section class="gray" id="landing">
+		<section class="container" id="landing">
 			<img id="landing_cover" src="images/landing.jpg" alt="Spark Image">
 		</section>
-		<section  class="light-blue" id="featured_work_title">
-			<h1 class="text">Featured work</h1>
-		</section>
-		<section class="gray" id="featured_work">
-			<section class="project light-blue" id="project_1">
-				<section class="gray" id="project_cover">
-					
+		<section  class=" container">
+			<h1 class="text inline" id="featured_work_title">Featured work</h1>
+			<section class="project" id="project_1">
+				<figure class="project_figure">
+					<img class="project_cover" src="images/movie_trailer.jpg" alt="Movie Tailer Image">
+				</figure>
+				<section>
+					<h3 class="text inline project-info">Movie Trailer Site</h3>
+					<br>
+					<a class="inline project-info" href="https://github.com/AmitojGill/movie_trailer_website">@Github</a> 
 				</section>
 			</section>
-			
+			<section class="project" id="project_2">
+				<figure class="project_figure">
+					<img class="project_cover" src="images/logs_analysis.jpg" alt="Logs analysis Image">
+				</figure>
+				<section>
+					<h3 class="text inline project-info">Logs Analysis</h3>
+					<br>
+					<a class="inline project-info" href="https://github.com/AmitojGill/logs-analysis">@Github</a> 
+				</section>
+			</section>
+			<section class="project" id="project_3">
+				<figure class="project_figure">
+					<img class="project_cover" src="images/quote.jpg" alt="Quote Image">
+				</figure>
+				<section>
+					<h3 class="text inline project-info">Quote Guess Game</h3>
+					<br>
+					<a class="inline project-info" href="https://github.com/AmitojGill/quote_guess_game">@Github</a> 
+				</section>
+			</section>
 		</section>
 </body>
 </html>
