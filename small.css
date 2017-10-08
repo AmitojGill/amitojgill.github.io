@@ -1,7 +1,5 @@
 
-body{
-	width: 100%;
-}
+
 h1{
 	font-size: 125%;
 }
@@ -10,16 +8,24 @@ h3{
 	font-size: 100%;
 }
 /* sections */
+#line{
+	height: 5px;
+	width: 100%;
+	background-color: #7d97ad;
+
+}
+
 #header{
 	height: 75px;
 	display: flex;
+	padding-right: 20px;
+	padding-left:  20px;
 }
 
 #logo{
 	width: 50px;
 	height: 50px;
-	padding: 5px;
-	padding-left: 20px;
+
 	margin: auto;
 }
 
@@ -70,14 +76,7 @@ h3{
 	height: 60%;
 	padding: 20px;
 }
-/* Seting Background colors */
-.light-blue{
-	background-color: lightskyblue;
-}
 
-.gray{
-	background-color: silver;
-}
 
 .project{
 	width: 100%;
@@ -115,4 +114,7 @@ h3{
 #featured_work_title{
 	color: #7d97ad;
 
+}
+.container{
+	margin: 5px;
 }
