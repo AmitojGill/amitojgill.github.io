@@ -15,7 +15,7 @@ h3{
 
 }
 
-#header{
+#header-box{
 	height: 75px;
 	display: flex;
 	padding-right: 20px;
@@ -41,7 +41,7 @@ h3{
 }
 
 #name{
-	font-style: bold;
+	font-weight: bold;
 	text-align: right;
 
 }
@@ -52,18 +52,18 @@ h3{
 }
 
 #landing{
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 }
 
 #landing_cover{
 	width: 100%;
-	height: 200px;
+	height: auto;
 }
 
 #landing_img{
-	width: 90%;
-	height: 100%;
+	
+	height: auto;
 	max-width: 100%;
 	margin: auto;
 	display: block;
@@ -120,6 +120,8 @@ h3{
 }
 #featured_work_title{
 	color: #7d97ad;
+	display: block;
+
 
 }
 .container{
@@ -130,6 +132,11 @@ h3{
 a{
 	padding-bottom: 10px;
 }
+
+#projects{
+	display: block;
+}
+
 
 
 
