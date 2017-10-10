@@ -54,14 +54,22 @@ h3{
 
 #landing{
 	width: 100%;
-	height: 200px;
+	height: auto;
 }
 
 #landing_cover{
 	width: 100%;
+	height: 200px;
+}
+
+#landing_img{
+	width: 90%;
 	height: 100%;
 	max-width: 100%;
+	margin: auto;
+	display: block;
 }
+
 #featured_work_title{
 	height: 30px;
 }
@@ -117,4 +125,5 @@ h3{
 }
 .container{
 	margin: 5px;
+
 }
