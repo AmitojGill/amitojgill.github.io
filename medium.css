@@ -4,6 +4,9 @@ h1{
 	font-size: 150%;
 }
 
+h2 {
+	font-size: 110%;
+}
 h3{
 	font-size: 125%;
 }
@@ -19,8 +22,7 @@ h3{
 #header-box{
 	height: 100px;
 	display: flex;
-	padding-right: 20px;
-	padding-left:  20px;
+	padding: 0 20px;
 }
 
 #logo{
@@ -143,6 +145,5 @@ a{
 	border:0;
 	width:88px;
 	height:31px
-
 }
 
