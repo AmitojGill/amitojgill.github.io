@@ -1,30 +1,8 @@
-
-
-h1{
-	font-size: 125%;
-}
-
-h2 {
-	font-size: 110%;
-}
-
-h3{
-	font-size: 100%;
-}
-/* sections */
-#line{
-	height: 5px;
-	width: 100%;
-	background-color: #7d97ad;
-	margin-bottom: 5px;
-
-}
-
+/* Header */
 #header-box{
 	height: 75px;
 	display: flex;
-	padding-right: 20px;
-	padding-left:  20px;
+	padding: 0 20px;
 }
 
 #logo{
@@ -56,6 +34,7 @@ h3{
 	text-align: right;
 }
 
+/* Landing */
 #landing{
 	max-width: 100%;
 	height: auto;
@@ -72,8 +51,31 @@ h3{
 	max-width: 100%;
 	margin: auto;
 	display: block;
+}
+
+/* Text Style */
+
+h1{
+	font-size: 125%;
+}
+
+h2 {
+	font-size: 110%;
+}
+
+h3{
+	font-size: 100%;
+}
+/* sections */
+#line{
+	height: 5px;
+	width: 100%;
+	background-color: #7d97ad;
+	margin-bottom: 5px;
 
 }
+
+
 #featured_work_title{
 	height: 30px;
 }
@@ -110,7 +112,7 @@ h3{
 	width: 90%;
 	height: auto;
 	margin: auto;
-	border-radius: 8PX;
+	border-radius: 8px;
 }
 
 .inline{
