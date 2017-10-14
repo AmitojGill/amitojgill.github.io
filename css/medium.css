@@ -1,0 +1,27 @@
+
+#header-box {
+	height: 100px;
+}
+
+#logo {
+	width: 75px;
+	height: 75px;
+}
+
+#featured_work_title {
+	text-align: left;
+}
+
+#featured_work_title {
+	color: #7d97ad;
+	display: block;
+
+}
+
+.container {
+	margin: 5px;
+}
+
+#projects {
+	display: flex;
+}
