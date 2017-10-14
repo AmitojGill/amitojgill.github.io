@@ -1,128 +1,17 @@
 
-
-h1{
-	font-size: 150%;
-}
-
-h2 {
-	font-size: 110%;
-}
-h3{
-	font-size: 125%;
-}
-/* sections */
-#line{
-	height: 5px;
-	width: 100%;
-	background-color: #7d97ad;
-	margin-bottom: 5px;
-
-}
-
 #header-box{
 	height: 100px;
-	display: flex;
-	padding: 0 20px;
 }
 
 #logo{
 	width: 75px;
 	height: 75px;
-	margin: auto;
 }
 
-#logo_image{
-	width: 100%;
-	height: 100%;
-}
-
-#site_title{
-	padding-right: 20px;
-	margin: auto;
-	width: 100%;
-	text-align: left;
-}
-
-#name{
-	font-weight: bold;
-	text-align: right;
-
-}
-
-#title{
-	font-style: italic;
-	text-align: right;
-}
-
-#landing{
-	max-width: 100%;
-	height: auto;
-}
-
-#landing_cover{
-	max-width: 100%;
-	height: auto;
-}
-
-#landing_img{
-	
-	height: auto;
-	max-width: 100%;
-	margin: auto;
-	display: block;
-
-}
 #featured_work_title{
-	height: 30px;
 	text-align: left;
 }
 
-#featured_work{
-	width: 100%;
-	height: 100%;
-}
-#project_cover{
-	padding-top: 50px;
-	width: 90%;
-	height: 60%;
-	padding: 20px;
-}
-
-
-
-.project{
-	width: 100%;
-	height: auto;
-
-}
-
-.text{
-	display: inline-block;
-	margin: auto;
-	color: #3d3c49;
-	font-family: Roboto, Times, serif; 
-}
-.project-info{
-	padding-top: 10px;
-}
-.project_cover{
-	display: block;
-	width: 90%;
-	height: auto;
-	margin: auto;
-	border-radius: 8px;
-}
-
-.inline{
-	width: 100%;
-	display: inline-block;
-	text-align: center;
-
-}
-
-.project_figure{
-	margin: 0px;
-}
 #featured_work_title{
 	color: #7d97ad;
 	display: block;
@@ -130,20 +19,8 @@ h3{
 }
 .container{
 	margin: 5px;
-	display: block;
-}
-
-a{
-	padding-bottom: 10px;
 }
 
 #projects{
 	display: flex;
 }
-
-.badge{
-	border:0;
-	width:88px;
-	height:31px
-}
-
